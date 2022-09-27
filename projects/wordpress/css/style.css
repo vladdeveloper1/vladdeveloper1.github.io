@@ -1,0 +1,332 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.promo {
+    height: 800px;
+    background: url(../img/bg/main_bg.jpeg) center center/cover no-repeat;
+    background-size: auto auto;
+    padding: 38px 0 61px 0;
+}
+
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 9.5px;
+}
+
+h1 {
+    margin-top: 53px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 41px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F9BF3B;
+
+}
+
+.simple .title_big {
+    font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 21px 0;
+}
+
+.promo .promo_text {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 22.5px;
+    padding: 0 13px;
+}
+
+.promo .promo_text span {
+    color: #F9BF3B;
+    font-weight: 700;
+}
+
+.promo .promo_btn,
+.gift .gift_btn {
+    display: block;
+    margin: 72px auto;
+    width: 313px;
+    height: 72px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+
+    font-family: 'Roboto Condensed Regular';
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    outline: none;
+}
+
+.gift .gift_btn {
+    margin: 51px auto 88px auto;
+}
+
+.more .more_text {
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.more .more_img {
+    display: block;
+    margin: 5px auto 0 auto;
+}
+
+
+.waiting {
+    min-height: 607px;
+    background: #EFEFEF;
+    padding: 88px 0 75px 0;
+}
+
+.waiting .waiting_header {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+
+}
+
+.waiting .waiting_divider,
+.finish .finish_divider {
+    margin: 18px auto;
+    width: 220px;
+    height: 7px;
+    background: #F9BF3B;
+}
+
+.waiting .waiting_subheader {
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    width: 342px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 26px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #4A4A4A;
+}
+
+.optimization {
+    min-height: 547px;
+    padding: 108px 0 72px 0;
+}
+
+.optimization .optimization_header {
+    margin-left: 391px;
+    font-weight: 900;
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.optimization .optimization_text {
+    margin-top: 8px;
+    margin-left: 391px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+
+.optimization .optimization_text p {
+    margin-bottom: 8px;
+}
+
+.optimization .optimization_text span {
+    font-weight: 700;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: -47px;
+    left: -240px;
+    z-index: -1;
+}
+
+.finish {
+    min-height: 447px;
+    padding: 86px 0 68.5px 0;
+    background: url(../img/bg/second_bg.png) center center/cover no-repeat;
+    background-size: auto auto;
+}
+
+.finish .finish_header {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EFEFEF;
+}
+
+.finish .finish_wrapper {
+    margin-top: 39px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 228px;
+    text-align: center;
+}
+
+/* flex-img ================================================================= */
+.finish .finish_wrapper .finish_item .finish_round {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    background: #B4E2FF;
+}
+
+/* ===================================================================== */
+.finish .finish_wrapper .finish_item .finish_descr {
+    margin-top: 24.5px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #EFEFEF;
+}
+
+.gift {
+    min-height: 631px;
+    background: #EFEFEF;
+    padding-top: 85px;
+}
+
+.gift img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_text {
+    margin-top: 45px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #252525;
+}
+
+.webinar .webinar_wrapper {
+    width: 577px;
+    min-height: 433px;
+    text-align: center;
+    margin: 81px auto 0 auto;
+}
+
+.webinar .webinar_wrapper .webinar_img {
+    display: block;
+    margin: 8px auto 36px auto;
+}
+
+.webinar .webinar_wrapper .webinar_header {
+    font-weight: 400;
+    font-size: 30px;
+    color: #252525;
+}
+
+.webinar .webinar_wrapper .webinar_descr {
+    font-weight: 900;
+    font-size: 36px;
+    color: #299CBD;
+    margin-top: 30px;
+}
+
+.webinar .webinar_wrapper .webinar_text {
+    font-weight: 400;
+    font-size: 23px;
+    color: #4A4A4A;
+    padding: 24px 0 52px 0;
+}
+
+.footer {
+    max-width: 1922px;
+    margin: 0 auto;
+    min-height: 169px;
+    background: #1A1A1A;
+    padding: 57px 0 67px 0;
+}
+
+.footer .info {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.footer .info p>span {
+    display: inline-block;
+    width: 1px;
+    height: 13px;
+    background: #888888;
+    margin: 0 8px -1.8px 8px;
+}
+
+.footer .info p>a {
+    text-decoration: none;
+    color: #888888;
+}
+
+.footer .info p:nth-child(1) {
+    text-decoration-line: underline;
+}
