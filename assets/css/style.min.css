@@ -1908,7 +1908,7 @@ canvas {
 .input-wrap,
 .file-wrap,
 .button {
-    visibility: hidden
+/*     visibility: hidden */
 }
 
 input.error {
